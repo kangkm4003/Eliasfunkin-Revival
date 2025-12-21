@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="noteSplashes.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="vanilla splash blue 10000" x="10" y="10" width="260" height="298"/>
+	<SubTexture name="vanilla splash blue 10001" x="280" y="10" width="260" height="298"/>
+	<SubTexture name="vanilla splash blue 10002" x="550" y="10" width="260" height="298"/>
+	<SubTexture name="vanilla splash blue 10003" x="820" y="10" width="260" height="298"/>
+	<SubTexture name="vanilla splash blue 20000" x="1090" y="10" width="274" height="267"/>
+	<SubTexture name="vanilla splash blue 20001" x="1374" y="10" width="274" height="267"/>
+	<SubTexture name="vanilla splash blue 20002" x="1658" y="10" width="274" height="267"/>
+	<SubTexture name="vanilla splash blue 20003" x="10" y="318" width="274" height="267"/>
+	<SubTexture name="vanilla splash green 10000" x="294" y="318" width="260" height="298"/>
+	<SubTexture name="vanilla splash green 10001" x="564" y="318" width="260" height="298"/>
+	<SubTexture name="vanilla splash green 10002" x="834" y="318" width="260" height="298"/>
+	<SubTexture name="vanilla splash green 10003" x="1104" y="318" width="260" height="298"/>
+	<SubTexture name="vanilla splash green 20000" x="1374" y="318" width="274" height="267"/>
+	<SubTexture name="vanilla splash green 20001" x="1658" y="318" width="274" height="267"/>
+	<SubTexture name="vanilla splash green 20002" x="10" y="626" width="274" height="267"/>
+	<SubTexture name="vanilla splash green 20003" x="294" y="626" width="274" height="267"/>
+	<SubTexture name="vanilla splash purple 10000" x="578" y="626" width="260" height="298"/>
+	<SubTexture name="vanilla splash purple 10001" x="848" y="626" width="260" height="298"/>
+	<SubTexture name="vanilla splash purple 10002" x="1118" y="626" width="260" height="298"/>
+	<SubTexture name="vanilla splash purple 10003" x="1388" y="626" width="260" height="298"/>
+	<SubTexture name="vanilla splash purple 20000" x="1658" y="626" width="274" height="267"/>
+	<SubTexture name="vanilla splash purple 20001" x="10" y="934" width="274" height="267"/>
+	<SubTexture name="vanilla splash purple 20002" x="294" y="934" width="274" height="267"/>
+	<SubTexture name="vanilla splash purple 20003" x="578" y="934" width="274" height="267"/>
+	<SubTexture name="vanilla splash red 10000" x="862" y="934" width="260" height="298"/>
+	<SubTexture name="vanilla splash red 10001" x="1132" y="934" width="260" height="298"/>
+	<SubTexture name="vanilla splash red 10002" x="1402" y="934" width="260" height="298"/>
+	<SubTexture name="vanilla splash red 10003" x="1672" y="934" width="260" height="298"/>
+	<SubTexture name="vanilla splash red 20000" x="10" y="1242" width="274" height="267"/>
+	<SubTexture name="vanilla splash red 20001" x="294" y="1242" width="274" height="267"/>
+	<SubTexture name="vanilla splash red 20002" x="578" y="1242" width="274" height="267"/>
+	<SubTexture name="vanilla splash red 20003" x="862" y="1242" width="274" height="267"/>
+</TextureAtlas>

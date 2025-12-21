@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_freeplay.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="freeplay idle0000" x="326" y="0" width="306" height="1379" frameX="2" frameY="2" frameWidth="302" frameHeight="1375"/>
+	<SubTexture name="freeplay selected0000" x="0" y="0" width="326" height="1398" frameX="12" frameY="12" frameWidth="350" frameHeight="1423"/>
+</TextureAtlas>
