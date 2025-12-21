@@ -1,0 +1,364 @@
+Korean (Korea)
+
+// Title Screen
+titlescreen_press_enter: "Enter를 눌러 시작"
+
+// Gameplay
+score_text: "점수: {1} | 미스: {2} | 정확도: {3}"
+score_text_instakill: "점수: {1} | 정확도: {2}"
+botplay: "봇플레이"
+credit_playing: "현재 재생중..."
+
+rating_r_u_erpin: "님 에르핀임?"
+rating_ughhh: "윽..."
+rating_bed: "냐빠"
+rating_brah: "뭔"
+rating_mah: "아"
+rating_not_so_tasty: "맛있진 않음"
+rating_yum: "냠...?"
+rating_yum_yum: "냠 냠!!"
+rating_dellciuus: "마시써!!"
+rating_bbaaaaang: "빠아아아앙!!!"
+
+// Dialogues
+dialogue_skip: "BACK 버튼을 눌러 넘기기"
+
+// Pause Menu
+pause_resume: "Resumir"
+pause_restart_song: "Reiniciar Música"
+pause_leave_charting_mode: "Sair do Modo Charter"
+pause_skip_time: "Tempo da Música"
+pause_end_song: "Encerrar Música"
+pause_change_difficulty: "Mudar Dificuldade"
+pause_toggle_practice_mode: "Alternar Modo Prática"
+pause_toggle_botplay: "Alternar Modo Automático"
+pause_options: "Opções"
+pause_exit_to_menu: "Voltar ao Menu"
+pause_back: "Voltar"
+practice_mode: "Modo Prática"
+charting_mode: "Modo Charter"
+weekend_farm: "주말 농장 간 횟수: {1}"
+
+week_score: "점수: {1}"
+
+// Freeplay
+freeplay_text: "프리플레이"
+personal_best: "개인 최고 기록: {1} ({2}%)"
+freeplay_tip: "SPACE를 눌러 노래 듣기 / RESET을 눌러 점수와 정확도 리셋."
+
+musicplayer_playing: "재생 중: {1}"
+musicplayer_paused: "재생 중: {1} (일시정지됨)"
+musicplayer_tip: "SPACE를 눌러 정지 / ESC를 눌러 나가기 / R을 눌러 곡 리셋"
+
+// Reset Score/Achievement
+reset_score: "점수 리셋"
+reset_achievement: "업적 리셋:"
+yes: "네"
+no: "아니오"
+
+// Achievements
+achievement_friday_night_play: "Sextou"
+description_friday_night_play: "Jogue em uma noite... de Sexta."
+achievement_week1_nomiss: "Ela Também me Chama de Daddy"
+description_week1_nomiss: "Complete a Week 1 no Modo Difícil e sem errar."
+achievement_week2_nomiss: "Chega de Travessuras"
+description_week2_nomiss: "Complete a Week 2 no Modo Difícil e sem errar."
+achievement_week3_nomiss: "Alvo Neutralizado"
+description_week3_nomiss: "Complete a Week 3 no Modo Difícil e sem errar."
+achievement_week4_nomiss: "Comedor de Casadas"
+description_week4_nomiss: "Complete a Week 4 no Modo Difícil e sem errar."
+achievement_week5_nomiss: "Natal Azedo"
+description_week5_nomiss: "Complete a Week 5 no Modo Difícil e sem errar."
+achievement_week6_nomiss: "Novo Recorde!!"
+description_week6_nomiss: "Complete a Week 6 no Modo Difícil e sem errar."
+achievement_week7_nomiss: "Filho da P..."
+description_week7_nomiss: "Complete a Week 7 no Modo Difícil e sem errar."
+achievement_weekend1_nomiss: "Briga sem Perder Amizade"
+description_weekend1_nomiss: "Complete a Weekend 1 no Modo Difícil e sem errar."
+achievement_ur_bad: "Pontuação Desastrosa!"
+description_ur_bad: "Complete uma Música com uma precisão menor que 20%."
+achievement_ur_good: "Perfeccionista"
+description_ur_good: "Complete uma Música com uma precisão de 100%"
+achievement_roadkill_enthusiast: "Sempre Olhe Para os Dois Lados"
+description_roadkill_enthusiast: "Assista aos Capangas sendo assassinados 50 vezes."
+achievement_oversinging: "Quem é o Cantor?"
+description_oversinging: "Cante por 10 segundos ou mais."
+achievement_hype: "TDAH"
+description_hype: "Complete uma Música nunca ficando parado."
+achievement_two_keys: "Agora é só Você e Eu!"
+description_two_keys: "Complete uma Música pressionando apenas duas teclas."
+achievement_toastie: "PC de Torradeira"
+description_toastie: "Jogando num belo de um PC da Xuxa, hein?"
+achievement_debugger: "Modo Debug"
+description_debugger: "Complete a Música "Test" através do Chart Editor."
+achievement_pessy_easter_egg: "Garota de Programação"
+description_pessy_easter_egg: "Hihi, você me encontrou~!"
+
+// Options
+options_title: "설정"
+
+option_outer-note_colors: "채보 색"
+option_outer-controls: "컨트롤"
+option_outer-adjust_delay: "딜레이 조정"
+option_outer-gameplay: "게임플레이"
+option_outer-visuals: "비주얼"
+option_outer-graphics: "그래픽"
+option_outer-language: "언어"
+
+options_choice-on: "켜기"
+options_choice-off: "끄기"
+
+// Note Colors Menu
+note_colors_tip: "RESET을 눌러 선택한 채보 요소 리셋."
+note_colors_hold_tip: "{1}를 꾹 누르고 RESET을 눌러 선택한 채보 전체 리셋."
+
+// Controls Menu
+title_notes_control: "채보 컨트롤"
+title_ui_control: "UI 컨트롤"
+title_game_control: "게임 컨트롤"
+title_volume_control: "음량 컨트롤"
+title_debug_control: "디버그 컨트롤"
+
+/// notes control
+setting_note_left: "채보 왼쪽"
+description_note_left: "당신의 "채보 왼쪽" 키를 설정하세요."
+setting_note_down: "채보 아래"
+description_note_down: "당신의 "채보 아래" 키를 설정하세요."
+setting_note_up: "채보 위"
+description_note_up: "당신의 "채보 위" 키를 설정하세요."
+setting_note_right: "채보 오른쪽"
+description_note_right: "당신의 "채보 오른쪽" 키를 설정하세요."
+
+/// ui control
+setting_ui_left: "UI 왼쪽"
+description_ui_left: "당신의 "UI 왼쪽" 키를 설정하세요."
+setting_ui_down: "UI 아래"
+description_ui_down: "당신의 "UI 아래" 키를 설정하세요."
+setting_ui_up: "UI 위"
+description_ui_up: "당신의 "UI 위" 키를 설정하세요."
+setting_ui_right: "UI 오른쪽"
+description_ui_right: "당신의 "UI 오른쪽" 키를 설정하세요."
+
+/// game control
+setting_reset: "리셋"
+description_reset: "당신의 "리셋" 키를 설정하세요."
+setting_accept: "확인"
+description_accept: "당신의 "확인" 키를 설정하세요."
+setting_back: "돌아가기"
+description_back: "당신의 "돌아가기" 키를 설정하세요."
+setting_pause: "일시정지"
+description_pause: "당신의 "일시정지" 키를 설정하세요."
+setting_sp_skill: "SP 스킬"
+description_sp_skill: "당신의 "SP 스킬" 키를 설정하세요."
+
+/// volume control
+setting_volume_mute: "음소거"
+description_volume_mute: "당신의 "음소거" 키를 설정하세요."
+setting_volume_up: "음량 증가"
+description_volume_up: "당신의 "음량 증가" 키를 설정하세요."
+setting_volume_down: "음량 감소"
+description_volume_down: "당신의 "음량 감소" 키를 설정하세요."
+
+/// debug control
+setting_debug_1: "디버그 키 1"
+setting_debug_2: "디버그 키 2"
+description_debug_1: "당신의 "디버그 1" 키를 설정하세요."
+description_debug_2: "당신의 "디버그 2" 키를 설정하세요."
+
+/// rebinding
+controls_rebinding: "{1} 재설정 중"
+controls_rebinding2: "ESC를 꾹 눌러 취소\nBackspace를 꾹 눌러 삭제"
+
+// Adjust Delay Menu
+delay_beat_hit: "비트!"
+delay_current_offset: "현재 오프셋: {1} ms"
+note_delay: "채보/비트 딜레이"
+
+// Graphics Settings
+title_graphic: "그래픽"
+
+/// graphic
+setting_low_quality: "낮은 퀄리티"
+description_low_quality: "키면, 배경 디테일 일부가 비활성화되고, 로딩 시간을 줄이며 성능이 향상됩니다."
+setting_anti-aliasing: "안티 에일리어싱"
+description_anti-aliasing: "끄면, 안티 에일리어싱이 비활성화되고, 성능은 향상되지만 화면이 거칠게 보일 수 있습니다."
+setting_shaders: "셰이더"
+description_shaders: "끄면, 셰이더가 비활성화됩니다.\n일부 시각 효과를 위해 사용되지만, PC가 안좋은 경우 CPU에 부담이 갑니다."
+setting_gpu_caching: "GPU 캐싱"
+description_gpu_caching: "키면, GPU가 텍스쳐를 캐싱해, RAM 사용을 줄일 수 있습니다.\n구린 그래픽 카드를 가지고 있다면 키지 마세요."
+setting_framerate: "프레임레이트"
+description_framerate: "꽤 자기설명적이죠, 안 그래요?"
+
+// Visuals Settings
+title_notes_visual: "채보 비주얼"
+title_hud_visual: "HUD 비주얼"
+title_dialogue_and_text_visual: "대화와 텍스트 비주얼"
+title_etc_visual: "기타 비주얼"
+
+/// notes visual
+setting_note_skins: "채보 스킨"
+setting_note_skins-default: "기본"
+setting_note_skins-future: "퓨처"
+setting_note_skins-chip: "칩"
+setting_note_skins-vanilla: "바닐라"
+description_note_skins: "원하는 채보를 고르세요."
+setting_note_splashes: "채보 스플래시"
+setting_note_splashes-vanilla: "바닐라"
+setting_note_splashes-diamond: "다이아몬드"
+setting_note_splashes-electric: "일레트릭"
+setting_note_splashes-sparkles: "스파크"
+setting_note_splashes-psych: "사이크"
+description_note_splashes: "원하는 채보 스플래시 종류를 고르세요."
+setting_note_splash_opacity: "채보 스플래시 투명도"
+description_note_splash_opacity: "채보 스플래시의 투명도를 얼마나 높일지 정하세요."
+
+/// hud visual
+setting_hide_hud: "HUD 숨기기"
+description_hide_hud: "키면, 대부분의 HUD 요소가 숨겨집니다."
+setting_time_bar: "시간 바"
+setting_time_bar-time_left: "남은 시간"
+setting_time_bar-time_elapsed: "지난 시간"
+setting_time_bar-song_name: "곡 이름"
+setting_time_bar-disabled: "비활성"
+description_time_bar: "시간 바를 어떻게 표시하실 건가요?"
+setting_health_bar_opacity: "체력 바 투명도"
+description_health_bar_opacity: "체력 바의 투명도를 얼마나 높일지 정하세요."
+
+/// dialogue and text visual
+setting_text_size: "글씨 크기"
+setting_text_size-small: "작게"
+setting_text_size-middle: "중간"
+setting_text_size-large: "크게"
+setting_text_size-very_large: "매우 크게"
+description_text_size "대화 글씨 크기를 고르세요."
+setting_interaction: "상호작용"
+description_text_size "키면, 대화 안에서 상호작용이 가능합니다."
+
+/// etc visual
+setting_fps_counter: "FPS 표시"
+description_fps_counter: "끄면, FPS가 숨겨집니다."
+setting_flashing_lights: "빛 깜빡임"
+description_flashing_lights: "만약 빛 깜빡임에 예민하다면 이걸 끄세요!"
+setting_camera_zooms: "카메라 줌"
+description_camera_zooms: "끄면, 매 비트에 카메라 줌이 되지 않습니다."
+setting_score_text_grow_on_hit: "칠 때 텍스트 커짐"
+description_score_text_grow_on_hit: "끄면, 매 채보를 칠 때 점수 텍스트가 커지는 걸 비활성화합니다."
+setting_pause_music: "일시정지 음악"
+setting_pause_music-none: "없음"
+description_pause_music: "일시정지 화면에서 어떤 음악이 마음에 드시나요?"
+setting_discord_rich_presence: "디스코드 활동 상태 표시"
+description_discord_rich_presence: "실수로 인한 유출을 방지하고 싶다면 이걸 끄세요, "하는 중" 상자에서 어플리케이션을 숨겨줍니다."
+setting_rating_stacking: "판정 쌓기"
+description_rating_stacking: "끄면, 판정이 쌓이지 않고, 시스템 메모리를 지키고 읽기 쉽게 합니다."
+
+// Gameplay Settings
+title_gameplay: "게임플레이"
+title_scroll: "스크롤"
+title_ingame: "인게임"
+title_rating: "판정"
+
+/// gameplay
+setting_opponent_notes: "상대방 채보"
+description_opponent_notes: "끄면, 상대방의 채보가 숨겨지게 됩니다."
+setting_ghost_tapping: "고스트 탭핑"
+description_ghost_tapping: "키면, 칠 채보가 없을 때 키를 눌러도 틀리지 않게 됩니다."
+setting_auto_pause: "자동 일시정지"
+description_auto_pause: "키면, 창이 선택되지 않았을 때 자동으로 게임이 멈추게 됩니다."
+setting_disable_reset_button: "리셋 버튼 비활성"
+description_disable_reset_button: "키면, 리셋 버튼을 눌러도 동작하지 않습니다."
+setting_sustains_as_one_note: "긴 채보를 한 채보로"
+description_sustains_as_one_note: "키면, 긴 채보를 틀렸을 때, 누를 수 없게 됩니다, 그리고 침/미스 횟수를 한 번만 세게 됩니다.\n예전 입력 방식을 원한다면 꺼주세요."
+setting_hitsound_volume: "타격음 음량"
+description_hitsound_volume: "이 웃긴 채보는 쳤을 때 "틱!" 소리를 냅니다."
+
+/// scroll
+setting_downscroll: "다운스크롤"
+description_downscroll: "키면, 채보들이 위에서 아래로 내려옵니다, 정말 간단하죠."
+setting_middlescroll: "미들스크롤"
+description_middlescroll: "키면, 당신의 채보는 가운데로 옵니다."
+
+/// ingame
+setting_scroll_type: "스크롤 타입"
+setting_scroll_type-multiplicative: "배수"
+setting_scroll_type-constant: "상수"
+description_scroll_type: "어떤 스크롤 타입이 마음에 드나요?"
+setting_scroll_speed: "스크롤 속도"
+description_scroll_speed: "당신의 마음에 드는 스크롤 속도를 맞추세요."
+setting_playback_rate: "재생 속도"
+description_playback_rate: "당신의 마음에 드는 재생 속도를 맞추세요."
+setting_health_gain_multiplier: "체력 증가 배율"
+description_health_gain_multiplier: "이 배율을 조절해 원하는 곡을 어렵게/쉽게 플레이하세요."
+setting_health_loss_multiplier: "체력 증가 배율"
+description_health_loss_multiplier: "이 배율을 조절해 원하는 곡을 어렵게/쉽게 플레이하세요."
+setting_fc_mode: "풀콤 모드"
+description_fc_mode: "키면, 채보를 놓쳤을 때 리셋됩니다."
+setting_practice_mode: "연습 모드"
+description_practice_mode: "키면, 채보를 놓쳐도 게임 오버되지 않습니다."
+setting_botplay: "봇플레이"
+description_botplay: "키면, 게임이 자동으로 채보를 쳐줍니다."
+
+/// rating
+setting_rating_offset: "판정 오프셋"
+description_rating_offset: ""Sick!"이 얼마나 빠르게/느리게 쳐도 되는지 조절합니다.\n높은 값은 느리게 칠 수 있는 정도를 의미합니다."
+setting_sick_hit_window: "Sick! 판정 범위"
+description_sick_hit_window: ""Sick!"을 칠 수 있는 타이밍을 밀리초로 조절하세요."
+setting_good_hit_window: "Good 판정 범위"
+description_good_hit_window: ""Good"을 칠 수 있는 타이밍을 밀리초로 조절하세요."
+setting_bad_hit_window: "Sick! 판정 범위"
+description_bad_hit_window: ""Bad"을 칠 수 있는 타이밍을 밀리초로 조절하세요."
+setting_safe_frames: "세이프 프레임"
+description_safe_frames: "채보를 얼마나 일찍 또는 늦게 쳐도 판정되는지를 프레임 단위로 조정합니다"
+
+// Language
+title_language: "언어"
+setting_language: "언어"
+description_language: "게임의 언어를 설정하세요."
+
+// Loading Screen
+now_loading: "지금 로딩 중{1}"
+
+// Difficulties
+difficulty_bell_pepper: "순한맛"
+difficulty_poblano: "매운맛"
+difficulty_habanero: "핵불맛"
+
+// Discord Rich Presence
+discord_title_screen: "타이틀에서"
+discord_main_menu: "메뉴에서"
+discord_freeplay: "프리플레이에서"
+discord_achievements_menu: "도전과제 메뉴"
+
+/// play screen
+discord_play-is_story: "스토리 모드: "
+discord_play-is_freeplay: "프리플레이"
+discord_play-is_paused: "일시정지됨 - "
+discord_play-game_over: "게임 오버 - "
+
+/// option
+discord_options-note_colors: "채보 색 설정 메뉴"
+discord_options-controls: "컨트롤 설정 메뉴"
+discord_options-adjust_delay: "딜레이 조정 설정 메뉴"
+discord_options-graphics: "그래픽 설정 메뉴"
+discord_options-visuals: "비주얼 설정 메뉴"
+discord_options-gameplay: "게임플레이 설정 메뉴"
+discord_options-language: "언어 설정 메뉴"
+
+/// debug
+discord_editor-editting: "수정 중: "
+discord_editors_main_menu: "에디터 메인 메뉴"
+discord_chart_editor: "차트 에디터"
+discord_chart_editor-what_song: "곡: "
+discord_char_editor: "캐릭터 에디터"
+discord_char_editor-who: "캐릭터: "
+discord_dia_editor: "대화 에디터"
+discord_dia_editor-empty: "(비었음)"
+discord_dia_char_editor: "대화 캐릭터 에디터"
+discord_menu_char_editor: "메뉴 캐릭터 에디터"
+discord_note_splash_editor: "채보 스플래시 에디터"
+discord_stage_editor: "스테이지 에디터"
+discord_stage_editor-new_stage: "새로운 스테이지"
+discord_stage_editor-cur_stage: "스테이지: "
+discord_week_editor: "주간 에디터"
+
+images/menudifficulties/easy: "images/pt-BR/menudifficulties/easy"
+images/menudifficulties/hard: "images/pt-BR/menudifficulties/hard"

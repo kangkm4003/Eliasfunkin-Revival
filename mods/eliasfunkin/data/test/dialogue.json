@@ -1,0 +1,103 @@
+[
+	{
+		"name": "erpin",
+		"nameTagColor": "",
+		"namePos": "right",
+		"text": "대충 첫번째 대화 대사",
+		"type": "normal",
+		"openAnim": true
+	},
+	{
+		"type": "location",
+		"text": "두번째 지역 이름"
+	},
+	{
+		"type": "effectBox",
+		"lifeSpan": 1,
+		"x": 300,
+		"y": 300,
+		"width": 150,
+		"height": 150,
+		"angle": -5,
+		"text": "이펙트"
+	},
+	{
+		"type": "effectBox",
+		"lifeSpan": 1,
+		"x": 50,
+		"y": 300,
+		"width": 150,
+		"height": 150,
+		"angle": -5,
+		"text": "이펙트"
+	},
+	{
+		"name": "erpin",
+		"nameTagColor": "",
+		"namePos": "left",
+		"text": "대충 세번째 대화 대사",
+		"type": "loud",
+		"openAnim": true
+	},
+	{
+		"text": "대충 네번째 대화 대사",
+		"type": "box"
+	},
+	{
+		"text": "대충 다섯번째 대화 대사",
+		"type": "box"
+	},
+	{
+		"name": "aaaaaaaaaa",
+		"text": "대충 여섯번째 대화 대사",
+		"type": "gradient",
+		"openAnim": true
+	},
+	{
+		"name": "aaaaaaaaaa",
+		"nameTagColor": "",
+		"namePos": "left",
+		"text": "대충 일곱번째 대화 대사",
+		"type": "gradient",
+		"openAnim": true
+	},
+	{
+		"name": "bf",
+		"nameTagColor": "",
+		"namePos": "center",
+		"text": "대충 선택지 대화 대사",
+		"type": "think",
+		"openAnim": true,
+
+		"choice": [
+			{
+				"type": 1,
+				"text": "선택지1",
+				"diaData": [
+					{
+						"name": "erpin",
+						"nameTagColor": "F09D7D",
+						"namePos": "right",
+						"text": "대충 첫번째 선택 두번째 대사",
+						"type": "normal",
+						"openAnim": true
+					}
+				]
+			},
+			{
+				"type": 1,
+				"text": "선택지1",
+				"diaData": [
+					{
+						"name": "erpin",
+						"nameTagColor": "F09D7D",
+						"namePos": "right",
+						"text": "대충 첫번째 선택 두번째 대사",
+						"type": "normal",
+						"openAnim": true
+					}
+				]
+			}
+		]
+	}
+]

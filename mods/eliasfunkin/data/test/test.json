@@ -1,0 +1,25 @@
+{
+	"player1": "bf-re",
+	"gfVersion": "gf",
+	"notes": [
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [],
+			"gfSection": false,
+			"altAnim": false,
+			"mustHitSection": true,
+			"changeBPM": false,
+			"bpm": 150
+		}
+	],
+	"events": [],
+	"player2": "Fairy-Erpin",
+	"disableNoteRGB": false,
+	"offset": 0,
+	"song": "Test",
+	"needsVoices": true,
+	"stage": "erpinStage2",
+	"bpm": 140.9,
+	"speed": 2.65,
+	"format": "psych_v1"
+}
