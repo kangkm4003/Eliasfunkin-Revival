@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [-34, 8],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "erpin down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-39, 10],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "erpin up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-35, 8],
+			"anim": "idle",
+			"fps": 24,
+			"name": "erpin idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-35, 10],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "erpin right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-39, 12],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "erpin left",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/erpin",
+	"position": [-660, 10],
+	"healthicon": "erpin",
+	"flip_x": true,
+	"healthbar_colors": [255, 239, 187],
+	"camera_position": [70, -30],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

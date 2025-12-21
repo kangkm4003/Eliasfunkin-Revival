@@ -1,0 +1,95 @@
+{
+	"animations": [
+		{
+			"offsets": [0, 1],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "bf re v1 bf idle"
+		},
+		{
+			"offsets": [64, 45],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "bf re v1 bf left"
+		},
+		{
+			"offsets": [76, 45],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "bf re v1 bf down"
+		},
+		{
+			"offsets": [59, 55],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "bf re v1 bf up"
+		},
+		{
+			"offsets": [26, 55],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "bf re v1 bf right"
+		},
+		{
+			"offsets": [28, 0],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "bf re v1 down miss"
+		},
+		{
+			"offsets": [26, 17],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "bf re v1 up miss"
+		},
+		{
+			"offsets": [57, 15],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "bf re v1 left miss"
+		},
+		{
+			"offsets": [61, 17],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "bf re v1 right miss"
+		},
+		{
+			"offsets": [78, 52],
+			"indices": [],
+			"fps": 24,
+			"anim": "hey",
+			"loop": false,
+			"name": "bf re v1 bf hay"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bf re v1",
+	"position": [-400, -130],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [49, 176, 209],
+	"camera_position": [20, 70],
+	"sing_duration": 4,
+	"scale": 0.9,
+	"_editor_isPlayer": true
+}
