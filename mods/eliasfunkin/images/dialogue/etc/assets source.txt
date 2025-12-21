@@ -1,0 +1,2 @@
+all dialogue assets form "trickcal-cg-generator"
+link: https://github.com/acherium/trickcal-cg-generator
