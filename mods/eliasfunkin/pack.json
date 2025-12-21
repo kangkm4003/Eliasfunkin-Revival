@@ -1,0 +1,9 @@
+{
+	"name": "Eliasfunkin' Re: vival",
+	"description": "A FNF mod created as fan-made content for the game Trickal.\nAll copyrights belong to EPID Games.",
+	"restart":false,
+	"runsGlobally": true,
+	"color": [170, 0, 255],
+	"discordRPC": "1375732932907499600",
+	"iconFramerate": 10
+}
