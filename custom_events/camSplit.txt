@@ -1,0 +1,3 @@
+epic camsplit event
+value1 = dad or bf to close or open
+value2 = time
