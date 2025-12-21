@@ -1,0 +1,10 @@
+--function onCreate()
+--    runHaxeCode([[
+--        import flixel.addons.effects.FlxSkewedSprite;
+--
+--        var test = new FlxSkewedSprite(0, 0);
+--        test.loadGraphic(Paths.image('curtain'));
+--        test.cameras = [camOther];
+--        add(test);
+--    ]])
+--end
