@@ -1,0 +1,206 @@
+[
+	{
+		"type": "location",
+		"text": "Somewhere in The Forest",
+		"eventID": 1
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "…?",
+		"type": "think",
+		"openAnim": true,
+		"eventID": 2,
+
+		"sokmaeum": {
+			"name": "BF",
+			"nameTagColor": "7BD6EB",
+			"namePos": "",
+			"text": "속마음",
+			"type": "think-purple",
+			"openAnim": true
+		}
+	},
+	{
+		"name": "???",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "GUAAAAHHH!! Get out of my way!!",
+		"type": "loud",
+		"openAnim": true,
+		"eventID": 3
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "Bap…!!!",
+		"type": "loud",
+		"openAnim": true,
+		"eventID": 4
+	},
+	{
+		"type": "effectBox",
+		"lifeSpan": 0,
+		"x": 500,
+		"y": 300,
+		"width": 150,
+		"height": 150,
+		"angle": -5,
+		"text": "*Bump!*",
+		"eventID": 5
+	},
+	{
+		"name": "Erpin",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "Oww… Don't dare stand in my way!!",
+		"type": "loud",
+		"openAnim": true,
+		"eventID": 6
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "Beep?",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 7
+	},
+	{
+		"name": "Erpin",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "You... Did she sent you??",
+		"type": "normal",
+		"openAnim": false,
+		"eventID": 8
+	},
+	{
+		"name": "Erpin",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "Dang, I didn't even play enough!!",
+		"type": "loud",
+		"openAnim": true,
+		"eventID": 9
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "Beep",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 10
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "Bap Bop Da Beep",
+		"type": "normal",
+		"openAnim": false,
+		"eventID": 11
+	},
+	{
+		"name": "Erpin",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "You speak weird a little bit.",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 12
+	},
+	{
+		"name": "Erpin",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "I think... he isn't the one she sent.",
+		"type": "think",
+		"openAnim": true,
+		"eventID": 13
+	},
+	{
+		"name": "Erpin",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "Well, I don't care as you are not the one.\nGet out of my way, I'm a busy one.",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 14
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "Beep Bop!",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 15
+	},
+	{
+		"name": "Erpin",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "Wanna say something to me?",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 14
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "Beep Bep Bop.",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 16
+	},
+	{
+		"name": "Erpin",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "A song?",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 13
+	},
+	{
+		"name": "Erpin",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "You mean you want me to sing with you?",
+		"type": "normal",
+		"openAnim": false
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "Yeah!",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 16
+	},
+	{
+		"name": "Erpin",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "Hmm...",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 14
+	},
+	{
+		"name": "Erpin",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "Alright! I was about to bored, So that's Good!",
+		"type": "normal",
+		"openAnim": false,
+		"eventID": 17
+	}
+]

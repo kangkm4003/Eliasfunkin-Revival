@@ -1,0 +1,206 @@
+[
+	{
+		"type": "location",
+		"text": "숲속 어딘가",
+		"eventID": 1
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "…?",
+		"type": "think",
+		"openAnim": true,
+		"eventID": 2,
+
+		"sokmaeum": {
+			"name": "BF",
+			"nameTagColor": "7BD6EB",
+			"namePos": "",
+			"text": "속마음",
+			"type": "think-purple",
+			"openAnim": true
+		}
+	},
+	{
+		"name": "???",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "으와아아악!! 비켜비켜!!",
+		"type": "loud",
+		"openAnim": true,
+		"eventID": 3
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "Bap…!!!",
+		"type": "loud",
+		"openAnim": true,
+		"eventID": 4
+	},
+	{
+		"type": "effectBox",
+		"lifeSpan": 0,
+		"x": 500,
+		"y": 300,
+		"width": 150,
+		"height": 150,
+		"angle": -5,
+		"text": "꽈당!",
+		"eventID": 5
+	},
+	{
+		"name": "에르핀",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "아야야… 넌 뭔데 내 앞길을 막는거야?!",
+		"type": "loud",
+		"openAnim": true,
+		"eventID": 6
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "Beep?",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 7
+	},
+	{
+		"name": "에르핀",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "너 설마… 네르가 보낸 거냐??",
+		"type": "normal",
+		"openAnim": false,
+		"eventID": 8
+	},
+	{
+		"name": "에르핀",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "우이씨, 아직 제대로 놀지도 못했는데!!",
+		"type": "loud",
+		"openAnim": true,
+		"eventID": 9
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "Beep",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 10
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "Bap Bop Da Beep",
+		"type": "normal",
+		"openAnim": false,
+		"eventID": 11
+	},
+	{
+		"name": "에르핀",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "말을 좀 이상하게 하는 녀석이네..",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 12
+	},
+	{
+		"name": "에르핀",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "네르가 보낸 녀석이 아닌가?",
+		"type": "think",
+		"openAnim": true,
+		"eventID": 13
+	},
+	{
+		"name": "에르핀",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "네르가 보낸게 아니라면 상관 없어.\n빨리 비켜, 난 바쁜 몸이라구.",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 14
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "Beep Bop!",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 15
+	},
+	{
+		"name": "에르핀",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "뭔가 할 말이라도 있는 거야?",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 14
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "Beep Bep Bop.",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 16
+	},
+	{
+		"name": "에르핀",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "엥? 노래?",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 13
+	},
+	{
+		"name": "에르핀",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "나하고 같이 노래라도 부르자는 거야?",
+		"type": "normal",
+		"openAnim": false
+	},
+	{
+		"name": "BF",
+		"nameTagColor": "7BD6EB",
+		"namePos": "",
+		"text": "Yeah!",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 16
+	},
+	{
+		"name": "에르핀",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "음...",
+		"type": "normal",
+		"openAnim": true,
+		"eventID": 14
+	},
+	{
+		"name": "에르핀",
+		"nameTagColor": "F09D7D",
+		"namePos": "",
+		"text": "좋아! 마침 심심했는데 잘 됐네!",
+		"type": "normal",
+		"openAnim": false,
+		"eventID": 17
+	}
+]
