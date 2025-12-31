@@ -61,6 +61,10 @@ function LoadDialogue()
 end
 
 function onPrintDialogue(info, prev)
+    if type(info.type) ~= 'string' or type(info.text) ~= 'string' then
+        debugPrint('ERROR: info\'s type or text value is not string', 'RED')
+        onEndDialogue(nil)
+    end
     setOnScripts('textDone', false)
     callOnScripts('onPrintDialogue', {info, prev})
 
