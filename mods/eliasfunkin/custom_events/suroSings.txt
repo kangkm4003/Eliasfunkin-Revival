@@ -1,0 +1,7 @@
+
+value1 = 
+property to tween and value (only works "alpha" and "scale")
+If the value1 is "lyrics", make text of the lyrics id that matches value2.
+
+value2 = 
+duration and tweenEase

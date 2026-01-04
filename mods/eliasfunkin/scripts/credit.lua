@@ -104,19 +104,30 @@ function onCreate()
     setProperty('credit_cloudEffect_emitter.emitting', false)
 
     if creditInfo == nil then
-        makeLuaSprite('minimi_opp', 'minimi/Erpin', -getTextWidth('credit_songText') * 0.6 - 20, 10)
-        makeLuaSprite('minimi_bf', 'minimi/BF', getTextWidth('credit_songText') * 0.6, 10)
+        makeLuaSprite('minimi_opp', '', -getTextWidth('credit_songText') * 0.6 - 20, 10)
+        makeLuaSprite('minimi_bf', '', getTextWidth('credit_songText') * 0.6, 10)
+        setProperty('minimi_opp.alpha', 0)
+        setProperty('minimi_bf.alpha', 0)
     elseif creditInfo ~= nil then
-        if checkFileExists('images/minimi/'..creditInfo.minimi.left..'.png') then
-            makeLuaSprite('minimi_opp', 'minimi/'..creditInfo.minimi.left, -getTextWidth('credit_songText') * 0.6 - 20, 10)
+        if creditInfo.minimi.left ~= nil then
+            if checkFileExists('images/minimi/'..creditInfo.minimi.left..'.png') then
+                makeLuaSprite('minimi_opp', 'minimi/'..creditInfo.minimi.left, -getTextWidth('credit_songText') * 0.6 - 20, 10)
+            else
+                makeLuaSprite('minimi_opp', 'minimi/Erpin', -getTextWidth('credit_songText') * 0.6 - 20, 10)
+            end
         else
-            makeLuaSprite('minimi_opp', 'minimi/Erpin', -getTextWidth('credit_songText') * 0.6 - 20, 10)
+            makeLuaSprite('minimi_opp', '', -getTextWidth('credit_songText') * 0.6 - 20, 10)
         end
 
-        if checkFileExists('images/minimi/'..creditInfo.minimi.right..'.png') then
-            makeLuaSprite('minimi_bf', 'minimi/'..creditInfo.minimi.right, getTextWidth('credit_songText') * 0.6, 10)
+        if creditInfo.minimi.right ~= nil then
+            if checkFileExists('images/minimi/'..creditInfo.minimi.right..'.png') then
+                makeLuaSprite('minimi_bf', 'minimi/'..creditInfo.minimi.right, getTextWidth('credit_songText') * 0.6, 10)
+            else
+                makeLuaSprite('minimi_bf', 'minimi/BF', getTextWidth('credit_songText') * 0.6, 10)
+            end
         else
-            makeLuaSprite('minimi_bf', 'minimi/BF', getTextWidth('credit_songText') * 0.6, 10)
+            makeLuaSprite('minimi_bf', '', getTextWidth('credit_songText') * 0.6, 10)
+            setProperty('minimi_bf.alpha', 0)
         end
     end
         setObjectCamera('minimi_opp', 'other')
