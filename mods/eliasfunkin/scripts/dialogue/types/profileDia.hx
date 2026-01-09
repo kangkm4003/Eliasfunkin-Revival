@@ -106,7 +106,7 @@ function onTextDone()
     arrow.visible = true;
     for (luaInstance in PlayState.instance.luaArray)
     {
-        if(luaInstance.scriptName == Paths.getPath('scripts/DialogueSystem.lua'))
+        if(luaInstance.scriptName == Paths.getPath('scripts/DialogueHandler.lua'))
 			luaInstance.call('onSkip', []);
     }
 }

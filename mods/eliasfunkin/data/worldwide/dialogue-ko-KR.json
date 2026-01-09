@@ -5,22 +5,16 @@
 		"eventID": 1
 	},
 	{
+		"type": "nothing",
+		"eventID": 2
+	},
+	{
 		"name": "BF",
 		"nameTagColor": "7BD6EB",
 		"namePos": "",
 		"text": "…?",
 		"type": "think",
-		"openAnim": true,
-		"eventID": 2,
-
-		"sokmaeum": {
-			"name": "BF",
-			"nameTagColor": "7BD6EB",
-			"namePos": "",
-			"text": "속마음",
-			"type": "think-purple",
-			"openAnim": true
-		}
+		"openAnim": true
 	},
 	{
 		"name": "???",

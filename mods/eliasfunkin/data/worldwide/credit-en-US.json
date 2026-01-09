@@ -1,4 +1,12 @@
-[
-	"Composed By Neo-Doin",
-	"Stage & Sprite By byeonsu"
-]
+{
+	"minimi": 
+	{
+		"left": "Erpin",
+		"right": "BF"
+	},
+	"text":
+	[
+		"Composed By Neo-Doin",
+		"Stage & Sprite By byeonsu"
+	]
+}

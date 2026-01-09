@@ -1,17 +1,10 @@
 
-
-local colorBank = {
-    bf = '7BD6EB',
-    gf = 'A5004D',
-    erpin = 'F09D7D',
-    kyarot = 'F49C62',
-    butter = 'EEC375',
-    komi = 'FFA8A7'
-}
-
-local _dialogueFile = 'data/'..songPath..'/dialogue-'..getPropertyFromClass('backend.ClientPrefs', 'data.language')..'.json'
+local _path = 'data/'..songPath..'/dialogue-'..getPropertyFromClass('backend.ClientPrefs', 'data.language')..'.json'
+local _data = callMethodFromClass('tjson.TJSON', 'parse', {getTextFromFile(_path)})
+local _line = 1
+local _eventScript = 'scripts/dialogue/events/'..songPath..'.lua'
 function onCreate()
-    if checkFileExists(_dialogueFile) then
+    if checkFileExists(_path) then
         precacheImage('dialogue/bubble/next-white')
 
         makeLuaSprite('dialogue_black')
@@ -19,19 +12,20 @@ function onCreate()
         setProperty('dialogue_black.alpha', 0)
         setObjectCamera('dialogue_black', 'other')
         addLuaSprite('dialogue_black', false)
-        local diaScripts = directoryFileList('mods/'..modFolder..'/scripts/dialogue')
+        local diaScripts = directoryFileList('mods/'..modFolder..'/scripts/dialogue/types')
         for i = 1, #diaScripts do
             if stringEndsWith(diaScripts[i], '.lua') then
-                addLuaScript('scripts/dialogue/'..diaScripts[i])
+                addLuaScript('scripts/dialogue/types/'..diaScripts[i])
             elseif stringEndsWith(diaScripts[i], '.hx') then
-                addHScript('scripts/dialogue/'..diaScripts[i])
+                addHScript('scripts/dialogue/types/'..diaScripts[i])
             end
+        end
+        if checkFileExists(_eventScript) then
+            addLuaScript(_eventScript)
         end
         setOnLuas('DialogueFinished', false)
         setOnScripts('dontGoNextDia', true)
         setOnScripts('textDone', true)
-        setOnScripts('Line', 1)
-        setOnScripts('Dialogue', callMethodFromClass('tjson.TJSON', 'parse', {getTextFromFile(_dialogueFile)}))
         defineFormats()
     else  --if dialogue file doesnt exists
         close()
@@ -39,7 +33,7 @@ function onCreate()
 end
 
 function onCreatePost()
-    if checkFileExists(_dialogueFile) then
+    if checkFileExists(_path) then
         setProperty('uiGroup.alpha', 0)
         runTimer('wait', 1)
     end
@@ -57,18 +51,22 @@ function LoadDialogue()
     callOnScripts('LoadDialogue')
 
     setOnScripts('dontGoNextDia', false)
-    onPrintDialogue(Dialogue[Line])
+    PrintNextDialogue()
 end
 
-function onPrintDialogue(info, prev)
-    if type(info.type) ~= 'string' or type(info.text) ~= 'string' then
-        debugPrint('ERROR: info\'s type or text value is not string', 'RED')
-        onEndDialogue(nil)
+function onPrintDialogue(info)
+    if info.type == 'nothing' then
+        setOnScripts('textDone', true)
+    else
+        setOnScripts('textDone', false)
     end
-    setOnScripts('textDone', false)
-    callOnScripts('onPrintDialogue', {info, prev})
 
-    setOnScripts('Line', Line + 1)
+    callOnScripts('onPrintDialogue', {info})
+end
+
+function PrintNextDialogue()
+    onPrintDialogue(_data[_line])
+    _line = _line + 1
 end
 
 function onSkip()
@@ -99,12 +97,12 @@ function onUpdate(elapsed)
         if keyReleased('accept') and textDone and pressed then
             playSound('dialogue release')
             pressed = false
-            if Dialogue[Line] ~= nil and textDone then
-                onPrintDialogue(Dialogue[Line], Dialogue[Line-1])
+            if _data[_line] ~= nil and textDone then
+                PrintNextDialogue()
             elseif not textDone then
                 onSkip()
             else
-                onEndDialogue(Dialogue[Line-1].type)
+                onEndDialogue(_data[_line-1].type)
             end
         end
         if keyboardJustPressed('ESC') or keyJustPressed('back') then
@@ -132,7 +130,7 @@ function getColorBank(name)
     elseif string.lower(name) == 'butter' then
         return 'EEC375'
 
-    elseif string.lower(name) == 'komi' then
+    elseif string.lower(name) == 'kommy' then
         return 'FFA8A7'
         
     else
